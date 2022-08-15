@@ -1,0 +1,24 @@
+{
+  "contacts": [
+    {
+      "id": "56c60bf7-94c6-4df7-8a27-c657e6b1f28f",
+      "name": "John Doe",
+      "email": "john@anonymous.org"
+    },
+    {
+      "id": "889486c3-f319-4b62-81fc-0ac958d86d1f",
+      "name": "Jane Doe",
+      "email": "jane@anonymous.org"
+    },
+    {
+      "id": "9ee61027-5aab-4ca7-8105-a6b1c149e538",
+      "name": "Johnny Doe",
+      "email": "johnny@anonymous.org"
+    },
+    {
+      "id": "9f2fea3e-b3d1-4e78-ad7e-c3365a636a21",
+      "name": "Jimmy Doe",
+      "email": "jimmy@anonymous.org"
+    }
+  ]
+}

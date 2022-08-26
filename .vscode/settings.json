@@ -3,19 +3,29 @@
   "editor.formatOnSave": true,
   "[javascript]": {
     "editor.formatOnSave": false,
-    "editor.defaultFormatter": null
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascriptreact]": {
     "editor.formatOnSave": false,
     "editor.defaultFormatter": null
   },
   "javascript.validate.enable": false,
+  "typescript.validate.enable": false,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
     "source.fixAll.tslint": true,
     "source.organizeImports": true
   },
   "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true,
+  "eslint.lintTask.enable": true,
+  "eslint.options": {
+    "parser": "@babel/eslint-parser",
+    "babelOptions": {
+      "presets": ["@babel/preset-react"]
+    }
+  },
+  "eslint.validate": ["javascript"],
   "emmet.triggerExpansionOnTab": true,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
